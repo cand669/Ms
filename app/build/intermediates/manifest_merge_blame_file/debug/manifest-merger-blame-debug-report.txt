@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ein"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Aec\Android\Kotlin\GEin\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Aec\Android\Kotlin\GEin\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->[com.github.xuexiangjys:XHttp2:2.0.4] C:\Users\Administrator\.gradle\caches\transforms-3\1efb10001d3fc8192e55cd32d4a2ea1a\transformed\jetified-XHttp2-2.0.4\AndroidManifest.xml:10:5-81
+11-->[com.github.xuexiangjys:XHttp2:2.0.4] C:\Users\Administrator\.gradle\caches\transforms-3\1efb10001d3fc8192e55cd32d4a2ea1a\transformed\jetified-XHttp2-2.0.4\AndroidManifest.xml:10:22-78
+12    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+12-->[com.github.xuexiangjys:XHttp2:2.0.4] C:\Users\Administrator\.gradle\caches\transforms-3\1efb10001d3fc8192e55cd32d4a2ea1a\transformed\jetified-XHttp2-2.0.4\AndroidManifest.xml:11:5-13:47
+12-->[com.github.xuexiangjys:XHttp2:2.0.4] C:\Users\Administrator\.gradle\caches\transforms-3\1efb10001d3fc8192e55cd32d4a2ea1a\transformed\jetified-XHttp2-2.0.4\AndroidManifest.xml:12:9-68
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.github.xuexiangjys:XHttp2:2.0.4] C:\Users\Administrator\.gradle\caches\transforms-3\1efb10001d3fc8192e55cd32d4a2ea1a\transformed\jetified-XHttp2-2.0.4\AndroidManifest.xml:14:5-79
+13-->[com.github.xuexiangjys:XHttp2:2.0.4] C:\Users\Administrator\.gradle\caches\transforms-3\1efb10001d3fc8192e55cd32d4a2ea1a\transformed\jetified-XHttp2-2.0.4\AndroidManifest.xml:14:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.github.xuexiangjys:XHttp2:2.0.4] C:\Users\Administrator\.gradle\caches\transforms-3\1efb10001d3fc8192e55cd32d4a2ea1a\transformed\jetified-XHttp2-2.0.4\AndroidManifest.xml:15:5-67
+14-->[com.github.xuexiangjys:XHttp2:2.0.4] C:\Users\Administrator\.gradle\caches\transforms-3\1efb10001d3fc8192e55cd32d4a2ea1a\transformed\jetified-XHttp2-2.0.4\AndroidManifest.xml:15:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16
+17    <application
+17-->C:\Aec\Android\Kotlin\GEin\app\src\main\AndroidManifest.xml:5:5-23:19
+18        android:name="com.example.ein.MyApp"
+18-->C:\Aec\Android\Kotlin\GEin\app\src\main\AndroidManifest.xml:7:9-30
+19        android:allowBackup="true"
+19-->C:\Aec\Android\Kotlin\GEin\app\src\main\AndroidManifest.xml:6:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.3.2] C:\Users\Administrator\.gradle\caches\transforms-3\8e2b49ea63284e471e9203897360e312\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:label="@string/app_name"
+23-->C:\Aec\Android\Kotlin\GEin\app\src\main\AndroidManifest.xml:8:9-41
+24        android:networkSecurityConfig="@xml/network_security_config"
+24-->C:\Aec\Android\Kotlin\GEin\app\src\main\AndroidManifest.xml:10:9-69
+25        android:supportsRtl="true"
+25-->C:\Aec\Android\Kotlin\GEin\app\src\main\AndroidManifest.xml:9:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.AppCompat.NoActionBar" >
+27-->C:\Aec\Android\Kotlin\GEin\app\src\main\AndroidManifest.xml:11:9-59
+28        <activity android:name="com.example.ein.activity.SivaActivity" >
+28-->C:\Aec\Android\Kotlin\GEin\app\src\main\AndroidManifest.xml:12:9-18:20
+28-->C:\Aec\Android\Kotlin\GEin\app\src\main\AndroidManifest.xml:12:19-56
+29            <intent-filter>
+29-->C:\Aec\Android\Kotlin\GEin\app\src\main\AndroidManifest.xml:13:13-17:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Aec\Android\Kotlin\GEin\app\src\main\AndroidManifest.xml:14:17-69
+30-->C:\Aec\Android\Kotlin\GEin\app\src\main\AndroidManifest.xml:14:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Aec\Android\Kotlin\GEin\app\src\main\AndroidManifest.xml:16:17-77
+32-->C:\Aec\Android\Kotlin\GEin\app\src\main\AndroidManifest.xml:16:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity android:name="com.example.ein.activity.CyActivity" />
+35-->C:\Aec\Android\Kotlin\GEin\app\src\main\AndroidManifest.xml:19:9-56
+35-->C:\Aec\Android\Kotlin\GEin\app\src\main\AndroidManifest.xml:19:19-54
+36        <activity android:name="com.example.ein.activity.PxActivity" />
+36-->C:\Aec\Android\Kotlin\GEin\app\src\main\AndroidManifest.xml:20:9-56
+36-->C:\Aec\Android\Kotlin\GEin\app\src\main\AndroidManifest.xml:20:19-54
+37        <activity android:name="com.example.ein.activity.PzActivity" />
+37-->C:\Aec\Android\Kotlin\GEin\app\src\main\AndroidManifest.xml:21:9-56
+37-->C:\Aec\Android\Kotlin\GEin\app\src\main\AndroidManifest.xml:21:19-54
+38        <activity android:name="com.example.ein.activity.YdActivity" />
+38-->C:\Aec\Android\Kotlin\GEin\app\src\main\AndroidManifest.xml:22:9-56
+38-->C:\Aec\Android\Kotlin\GEin\app\src\main\AndroidManifest.xml:22:19-54
+39
+40        <service
+40-->[androidx.room:room-runtime:2.2.5] C:\Users\Administrator\.gradle\caches\transforms-3\522a783a8e9af56f266b65f2119c11eb\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+41            android:name="androidx.room.MultiInstanceInvalidationService"
+41-->[androidx.room:room-runtime:2.2.5] C:\Users\Administrator\.gradle\caches\transforms-3\522a783a8e9af56f266b65f2119c11eb\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+42            android:directBootAware="true"
+42-->[androidx.room:room-runtime:2.2.5] C:\Users\Administrator\.gradle\caches\transforms-3\522a783a8e9af56f266b65f2119c11eb\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+43            android:exported="false" />
+43-->[androidx.room:room-runtime:2.2.5] C:\Users\Administrator\.gradle\caches\transforms-3\522a783a8e9af56f266b65f2119c11eb\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+44
+45        <provider
+45-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\7281a80ebec9ae58b753a942291900aa\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+46            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+46-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\7281a80ebec9ae58b753a942291900aa\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+47            android:authorities="com.example.ein.lifecycle-process"
+47-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\7281a80ebec9ae58b753a942291900aa\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+48            android:exported="false"
+48-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\7281a80ebec9ae58b753a942291900aa\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+49            android:multiprocess="true" />
+49-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\7281a80ebec9ae58b753a942291900aa\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+50    </application>
+51
+52</manifest>

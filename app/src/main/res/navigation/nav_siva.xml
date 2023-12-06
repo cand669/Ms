@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_siva"
+    app:startDestination="@id/dutyFragment">
+
+    <fragment
+        android:id="@+id/dutyFragment"
+        android:name="DutyFragment"
+        android:label="DutyFragment" >
+        <action
+            android:id="@+id/action_dutyFragment_to_elbFragment"
+            app:destination="@id/elbFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/elbFragment"
+        android:name="ElbFragment"
+        android:label="ElbFragment" >
+        <action
+            android:id="@+id/action_elbFragment_to_ydActivity"
+            app:destination="@id/ydActivity" />
+        <action
+            android:id="@+id/action_elbFragment_to_pxActivity"
+            app:destination="@id/pxActivity" />
+        <action
+            android:id="@+id/action_elbFragment_to_pzActivity"
+            app:destination="@id/pzActivity" />
+        <action
+            android:id="@+id/action_elbFragment_to_cyActivity"
+            app:destination="@id/cyActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="HelpFragment"
+        android:label="HelpFragment" />
+    <activity
+        android:id="@+id/ydActivity"
+        android:name="com.example.ein.activity.YdActivity"
+        android:label="YdActivity" />
+    <activity
+        android:id="@+id/pxActivity"
+        android:name="com.example.ein.activity.PxActivity"
+        android:label="PxActivity" />
+    <activity
+        android:id="@+id/pzActivity"
+        android:name="com.example.ein.activity.PzActivity"
+        android:label="PzActivity" />
+    <activity
+        android:id="@+id/cyActivity"
+        android:name="com.example.ein.activity.CyActivity"
+        android:label="CyActivity" />
+</navigation>

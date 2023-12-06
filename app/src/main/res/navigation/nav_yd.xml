@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_yd"
+    app:startDestination="@id/yrFragment">
+
+    <fragment
+        android:id="@+id/yrFragment"
+        android:name="YrFragment"
+        android:label="YrFragment" >
+        <action
+            android:id="@+id/action_yrFragment_to_ykFragment"
+            app:destination="@id/ykFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ykFragment"
+        android:name="YkFragment"
+        android:label="YkFragment" >
+        <action
+            android:id="@+id/action_ykFragment_to_yrFragment"
+            app:destination="@id/yrFragment" />
+    </fragment>
+</navigation>
